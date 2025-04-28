@@ -8,4 +8,5 @@
 
 🔥 Live Demo :https://cool-notavailable.github.io/Gaurav-portfolio.github.io/
 
-💬 Connect with Me LinkedIn: https://www.linkedin.com/in/gaurav-sharma-571765358/ Email: gaurav.sharma122000@gmail.com
+💬 Connect with Me LinkedIn: https://www.linkedin.com/in/gaurav-sharma-571765358/ 
+Email: gaurav.sharma122000@gmail.com
