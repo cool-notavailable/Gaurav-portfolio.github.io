@@ -1,0 +1,310 @@
+@media screen and (max-width: 1280px) {
+  .autoBlur {
+    animation: none;
+  }
+  .autoDisplay {
+    animation: none;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    padding: 10px 0;
+  }
+  .home-content h1 {
+    font-size: 50px;
+  }
+  .Threedot {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .theme {
+    position: fixed;
+    top: 0;
+    left: 47%;
+    font-size: 0.5rem;
+  }
+  .cross {
+    display: none;
+  }
+  #Skills {
+    padding-top: 120px;
+  }
+  .contact h2 {
+    font-size: 70px;
+  }
+}
+/* small tablets */
+@media screen and (max-width: 834px) {
+  .blackhole-box video {
+    margin-top: -22.3%;
+  }
+}
+
+@media screen and (max-width: 819px) {
+  .scroll-down {
+    top: 8%;
+  }
+  .galaxy {
+    gap: 0;
+  }
+  /* section 1 */
+  .home-content {
+    width: 100%;
+  }
+  .hero-vid-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 1000px;
+  }
+  /* section 2 */
+  #About {
+    position: relative;
+  }
+  .glob-vid {
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+  }
+  .about-text {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 10px;
+  }
+  .about-text h4 {
+    width: 60%;
+  }
+  /* section 3 */
+  .services {
+    padding-top: 0;
+  }
+  .container {
+    padding: 30px 5px;
+  }
+  .sub-title {
+    font-size: 60px;
+  }
+  .services-listitems {
+    width: 100%;
+    margin: 30px 30px 10px 30px;
+  }
+  /* section 4 */
+  #Skills {
+    padding-top: 0;
+  }
+  .container1 {
+    width: 90%;
+  }
+  .container2 {
+    width: 90%;
+  }
+  .radial-bar .text {
+    left: 17%;
+  }
+  /* section 5 */
+  .row {
+    width: 100%;
+    margin-bottom: 13px;
+  }
+  /* section 6 */
+  .contact {
+    flex-direction: column;
+  }
+  .contact-text {
+    width: 100%;
+  }
+  .contact-form {
+    width: 100%;
+  }
+  .autoBlur {
+    animation: none;
+  }
+  .autoDisplay {
+    animation: none;
+  }
+}
+/* mobile  */
+@media screen and (max-width: 600px) {
+  .blackhole-box video {
+    margin-top: -20.3%;
+  }
+  .theme {
+    left: 44.5%;
+  }
+  /* section 1 */
+  .hero-vid-box {
+    top: 0px;
+    left: 100px;
+    height: 100px;
+    width: 75%;
+  }
+  .scroll-down {
+    top: 10.7%;
+  }
+  .hero-vid-box video {
+    transform: scale(0.8);
+    mix-blend-mode: lighten;
+  }
+  .home-content {
+    margin-top: 280px;
+    padding-left: 50px;
+  }
+  .glob-vid {
+    position: absolute;
+    top: 90px;
+    right: 0;
+  }
+  .about-text h4 {
+    font-size: 27px;
+  }
+}
+/* small mobile */
+@media screen and (max-width: 428px) {
+  .header {
+    padding: 8px 0;
+  }
+  .navLeftSection {
+    margin-left: 0;
+  }
+  .blackhole-box video {
+    margin-top: -18.5%;
+  }
+  .theme {
+    left: 43%;
+  }
+  .scroll-down {
+    top: 11%;
+  }
+  .hero-vid-box {
+    top: 0;
+    left: 55px;
+  }
+  .home-content {
+    padding-top: 0;
+    margin-top: 330px;
+    padding-left: 29px;
+  }
+  .home-content h3 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .home-content h1 {
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 5px;
+  }
+  .home-content p {
+    font-size: 16px;
+  }
+  /* section 2 */
+  .glob-vid img {
+    display: none;
+  }
+  .about-text {
+    padding-left: 40px;
+    padding-right: 20px;
+  }
+  .about-text h4 {
+    width: 100%;
+    font-size: 26px;
+  }
+  .about-text p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    margin-right: 18px;
+  }
+  /* section 3 */
+  .container .sub-title {
+    font-size: 37px;
+    padding-top: 1rem;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .portfolio-content {
+    margin: 50px 25px 50px 25px;
+  }
+  /* skills */
+  #Skills .heading {
+    font-size: 55px;
+    padding-bottom: 20px;
+  }
+  .container1 {
+    padding: 0 0 0 50px;
+    width: 100%;
+  }
+  .container2 .text {
+    left: 38%;
+  }
+  .radial-bar {
+    height: 190px;
+  }
+
+  .contact-text h2 {
+    font-size: 67px;
+  }
+  .container2 {
+    margin: 0 50px;
+  }
+  .heading1 {
+    margin-top: 10px;
+  }
+  /* section 4 */
+  .main-text h2 {
+    font-size: 50px;
+  }
+  .contact-text h2 {
+    font-size: 55px;
+  }
+  .contact-form {
+    padding-left: 28px;
+  }
+}
+@media screen and (max-width: 393px) {
+  .blackhole-box video {
+    margin-top: -17.3%;
+  }
+  .theme {
+    left: 43%;
+  }
+  .home-content h3 {
+    font-size: 25.5px;
+    font-weight: 500;
+  }
+  .home-content p {
+    font-size: 15px;
+  }
+  .about-text {
+    padding-left: 40px;
+    padding-right: 0px;
+  }
+  .about-text p {
+    margin-right: 12px;
+  }
+  .container2 {
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 30px;
+  }
+  .container2 .text {
+    left: 34%;
+  }
+  .container .sub-title {
+    text-align: center;
+  }
+  .contact-list li a {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .home-content h1 {
+    font-size: 40px;
+  }
+  .home-content h3 {
+    font-size: 25px;
+  }
+  #Highlight {
+    font-weight: 300;
+  }
+}

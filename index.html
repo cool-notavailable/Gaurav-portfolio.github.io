@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./asset/logo.jpeg">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="media-query.css" />
+    <script
+      src="https://kit.fontawesome.com/2e3a62d0b3.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  </head>
+  <body> 
+    <div class="galaxy">
+      <video class="back-vid" loading="lazy" loop autoplay muted playsinline  src="./videos/galaxy.mp4" type="video/mp4"> </video>
+    <!------------------
+         Header Section
+    ---------------------->
+    <header class="header flex">
+      <div class="navLeftSection flex">
+        <img src="./asset/smile-removebg-preview.png" alt="image">
+        <a href="#" class="logo">Developer</a>
+      </div>
+      <nav class="navbar ">
+        <a href="#Home" style="--i: 1" class="active">Home</a>
+        <a href="#About" style="--i: 2">About</a>
+        <a href="#Education" style="--i: 5">Education</a>
+        <a href="#Skills" style="--i: 4">Skills</a>
+        <a href="#ProjectOne" style="--i: 4">Project</a>
+        <a href="#Contact" style="--i: 5">Contact</a>
+      </nav>
+      <a href="#" class="Threedot" id="Threedot"><i class="fa-solid fa-bars  " id="bar"></i></a>
+      <a href="#" class="Threedot cross"><i class="fa-solid fa-xmark "></i></a>
+      <div class="theme ">
+        <i class="fa-solid fa-sun " id="sun"></i>
+        <i class="fa-solid fa-moon " id="moon"></i>
+      </div>
+      <!-- responsiveness -->
+      <nav class="navbar flex" id="hide">
+        <a href="#Home" style="--i: 1" class="active">Home</a>
+        <a href="#About" style="--i: 2">About</a>
+        <a href="#Education" style="--i: 5">Education</a>
+        <a href="#Skills" style="--i: 4">Skills</a>
+        <a href="#ProjectOne" style="--i: 4">Project</a>
+        <a href="#Contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+    <div class="blackhole-box">
+      <video class="blackhole" loading="lazy" loop autoplay muted playsinline src="./videos/blackhole.mp4" type="video/mp4"></video>
+    </div>
+  <!---------------------
+        section 1 header
+   --------------------->
+    <section class="home flex" id="Home">
+      <div class="home-content autoBlur">
+        <h3 class="autoDisplay">Hello, It's Me</h3>
+        <h1>Gaurav Sharma</h1>
+        <h3 class="span">And I'm a <span class="text gradient"></span></h3>
+        <p>
+         I specialize in crafting responsive frontends and powerful backends using modern technologies. Focused on performance, usability, and clean code to deliver efficient, scalable web applications that make an impact. 
+        </p>
+        <div class="home-sci">
+          <a href="https://www.facebook.com/profile.php?id=100008211904666" target="_blank" style="--i: 6"><i class="fa-brands fa-facebook"></i></a>
+          <a  href="https://www.linkedin.com/in/gaurav-sharma-571765358" target="_blank" style="--i: 7"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/gaurav__2112/" target="_blank"  style="--i: 8"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+          <a href="https://github.com/cool-notavailable" target="_blank" style="--i: 9"
+            ><i class="fa-brands fa-square-github"></i
+          ></a>
+        </div>
+        <a href="https://drive.google.com/file/d/17X_0OGU7D_KXNzATjDKJndJ2AQFPE7u3/view?usp=sharing" target="_blank" class="btn-box" id="cv">Download CV</a>
+      </div>
+      <div class="hero-vid-box" id="bg-video">
+        <video class="autoBlur" id="video" loading="lazy" autoplay loop muted playsinline src="videos/hero-video.mp4" type="video/mp4"></video>
+      </div>
+      <div  class="scroll-down" ></div>
+    </section>
+   <!------------------
+    section 2 About me
+    ------------------>
+    <section   class="about flex" id="About">
+     
+      <div class="glob-vid autoBlur">
+        <img src="asset/robot.png" loading="lazy" alt="image">
+      </div>
+      <div class="about-text autoBlur">
+        <h2 class="autoDisplay">About<span class="Me"> Me</span></h2>
+        <h4 class="gradient"> Full Stack Developer | Passionate About Building User-Interactive Websites</h4>
+        <p>
+          I am a <span class="highlight">Full Stack Developer</span> with hands-on experience in <span class="highlight">HTML, CSS, and JavaScript</span>, along with expertise in modern frameworks and libraries to create responsive and dynamic web applications. My passion lies in crafting intuitive, user-friendly interfaces that enhance engagement and deliver seamless experiences.
+          <p id="para">On the <span class="highlight">backend</span>, I have worked with <span class="highlight">Java, Node.js, Express, and MongoDB</span>, allowing me to develop full-stack applications with robust functionality. I enjoy bridging the gap between frontend and backend development to build scalable and efficient web solution
+            I am constantly exploring new technologies and best practices to stay ahead in the ever-evolving web development landscape. My goal is to leverage my skills to build high-performance, interactive websites that leave a lasting impact on users.</p>
+        </p>
+      </div>
+    </section>
+  <!------------------- 
+  section 3  education
+  -------------------->
+   <section class="services"  id="Education">
+    <div class="container" >
+      <h1 class="sub-title autoDisplay"><span> 🎓 Academic Journey </span></h1>
+      <div class="services-list flex autoBlur">
+        <!-- list 1 -->
+        <div class="services-listitems">
+          <h2 >🎓 Bachelor of Technology (B.Tech) <br><span class="headingHighlight">[🤖 Artificial Intelligence and Machine Learning]</span></h2>
+          <h3><span class="color">University</span>: [ <a href="https://aktu.ac.in/" id="School" target="_blank"> AKTU</a>/<a href="https://www.ipec.org.in/" id="School" target="_blank">IPEC</a>]</h3>
+          <h3> <span class="color">Duration</span> : 2021-2025</h3><br><br>
+         <h3 class="gradient">Certification: </h3>
+         <h3 id="Highlight"> 1. Full Stack Web development  <a href="https://drive.google.com/file/d/1-Z9QDEK_DJyJlFgZvhhytpoEdylZ2Iag/view?usp=sharing" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square " id="educationIcon" ></i></a>
+         <h3 id="Highlight"> 2. Certification of Merit <a href="https://drive.google.com/file/d/1RIMjy9a91mfmBRrrxzjK_ePxiEv91VYQ/view?usp=sharing"  target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" id="educationIcon" ></i></a></h3>
+        </div>
+        <!-- list 2 -->
+         <div class="services-listitems">
+          <h2>🏫 Senior Secondary  Education</h2>
+          <h3><span class="color">Institution</span>: <a href="https://khaitanpublicschool.com/" id="School" target="_blank">  Khaitan Public School</a></h3>
+          <h3><span class="color">Board</span>: CBSE</h3>
+          <h3><span class="color">Stream</span>: PCM[Physics, Chemistry, Mathematics]</h3>
+          <h3><span class="color">Year</span>: 2021</h3><br>
+          <p class="gradient" >Key Highlights:<br>
+            <h3 id="Highlight"> 1.Built my first basic programs and understood logic building</h3>
+            <h3 id="Highlight"> 2.Prepared rigorously for competitive exams, improving speed and accuracy</h3>
+          </p>
+        </div>
+        <!-- list 3 -->
+        <div class="services-listitems">
+          <h2>🏫 Secondary Education</h2>
+          <h3><span class="color">Institution</span>: <a href="https://sahib.stthomasghaziabad.org/" id="School" target="_blank"> ST. Thomas School</a></h3>
+          <h3><span class="color">Board</span>: CBSE</h3>
+          <h3><span class="color">Year</span>: 2019</h3><br><br><br>
+          <p class="gradient">Key Highlights: </p>
+            <h3 id="Highlight">1. Developed discipline and study habits that still support me today</h3>
+            <h3 id="Highlight">2. Participated in school-level science exhibitions and Olympiads</h3>
+         </div>
+       </div>
+    </div>
+   </section>
+   <!-------------------------
+    section 4 skills sub-title
+    -------------------------->
+    <section id="Skills" >
+      <h1 class=" autoDisplay heading">Skills</h1>
+      <div class="mainSkills flex">
+      <div class="container1 " >
+        <h1 class="heading1">Technical Skills </h1>
+        <div class="Technical-bars">
+          <div class="bar"> <i style="color: #c95d2e" class="fa-brands fa-html5"></i>
+            <div class="info">
+                <span>HTML</span>
+            </div>
+            <div class="progress-line  html ">
+              <span ></span>
+            </div>
+          </div>
+          <div class="bar"><i  style="color: #147bbc" class="fa-brands fa-css3-alt"></i>
+            <div class="info">
+               <span>CSS</span>
+            </div>
+            <div class="progress-line css">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"> <i style="color: #b0bc1e" class="fa-brands fa-js"></i>
+            <div class="info">
+              <span>JavaScript</span>
+            </div>
+            <div class="progress-line javascript">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i style="color: #c95d2e" class="fa-brands fa-java"></i>
+            <div class="info">
+              <span>JAVA</span>
+            </div>
+            <div class="progress-line java">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"> <i style="color: #75c420" class="fa-brands fa-node-js"></i>
+            <div class="info">
+              <span>EXPRESS JS</span>
+            </div>
+            <div class="progress-line expressjs">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"> <i style="color:gray" class="fa-brands fa-node"></i>
+            <div class="info">
+              <span>NODE JS</span>
+            </div>
+            <div class="progress-line nodejs">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><i style="color:#147bbe" class="fa-solid fa-database"></i>
+            <div class="info">
+              <span>SQL</span>
+            </div>
+            <div class="progress-line sql">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar"><img src="./asset/MongoDB.png" alt="MongoDB-Image" class="MongoDB">
+            <div class="info">
+              <span>MongoDB</span>
+            </div>
+            <div class="progress-line mongoDb">
+              <span></span>
+            </div>
+          </div>
+          <div class="bar">  <i style="color: gray" class="fa-brands fa-github"></i>
+            <div class="info">
+              <span>GITHUB</span>
+            </div>
+            <div class="progress-line github">
+              <span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container2">
+        <h1 class="heading1">Professional Skills</h1>
+        <div class="radial-bars">
+            <div class="radial-bar ">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar " cx="100" cy="100" r="80"></circle>
+                <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">Creativity</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">70%</div>
+              <div class="text">Communication</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path  path-3" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">75%</div>
+              <div class="text">Problem Solving</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">85%</div>
+              <div class="text">Teamwork</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200">
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+              </svg>
+              <div class="percentage">90%</div>
+              <div class="text">sports</div>
+            </div>
+            <div class="radial-bar">
+              <svg x="0px" y="0px" viewBox="0 0 200 200" >
+                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                <circle class="path path-6" cx="100" cy="100" r="80" ></circle>
+              </svg>
+              <div class="percentage" >70%</div>
+              <div class="text" >Organizational skills</div>
+            </div>
+        </div>
+        
+      </div>
+    </div> 
+    </section>
+    <!----------------
+     section 5 
+     ---------------->
+    <section id="ProjectOne">
+      <div class="main-text autoDisplay" id="project">
+        <h2>Latest<span> Project</span></h2>
+      </div>
+      <!-- Project Row 1 -->
+        <div class="portfolio-content flex autoBlur">
+          <div class="row">
+            <img src="./asset/UsabilityHub.png" alt="image" id="imageTwo">
+            <div class="layer">
+              <h5>UsabilityHub Clone Website</h5>
+              <p>This project is a clone of UsabilityHub Website, built using only HTML and CSS </p>
+                     <div class="btn">
+                      <a href=" https://cool-notavailable.github.io/Project-2-UsabilityHub-clone-website.github.io/" target="_blank" class="projectBtn">DEMO<i class="fa-solid fa-arrow-up-right-from-square gradient" ></i></a>
+                      <a href="https://github.com/cool-notavailable/Project-2-UsabilityHub-clone-website.github.io.git" target="_blank" class="projectBtn">CODE<i class="fa-solid fa-laptop-code gradient"></i></a>
+                     </div>
+            </div>
+          </div>
+          <div class="row">
+            <img src="./asset/Screenshot (38).png" alt="image">
+            <div class="layer">
+              <h5>Genius Music App Clone</h5>
+              <p>This is a pixel-perfect clone of the Genius Music App.The goal of this project was to replicate the design and layout.</p>
+              <div class="btn">
+                <a href=" https://cool-notavailable.github.io/Project-4-Genius-Music-App-HTML-CSS-Clone.github.io/" target="_blank" class="projectBtn ">DEMO<i class="fa-solid fa-arrow-up-right-from-square gradient" ></i></a>
+                <a href="https://github.com/cool-notavailable/Project-4-Genius-Music-App-HTML-CSS-Clone.github.io.git" target="_blank" class="projectBtn">CODE<i class="fa-solid fa-laptop-code gradient"></i></a>
+               </div>
+            </div>
+            </div>
+            <div class="row">
+              <img src="./asset/netflix.png" alt="image">
+              <div class="layer">
+                <h5>Nexora</h5>
+                <p>Pixel-perfect replica of the Netflix UI.Nexora mirrors the sleek user interface and user experience of a real-world streaming service.</p>
+                <div class="btn">
+                  <a href="https://cool-notavailable.github.io/project-6-Nexora-A-Modern-Streaming-Platform-UI.github.io/" target="_blank" class="projectBtn">DEMO<i class="fa-solid fa-arrow-up-right-from-square gradient" ></i></a>
+                  <a href="https://github.com/cool-notavailable/project-6-Nexora-A-Modern-Streaming-Platform-UI.github.io.git" target="_blank" class="projectBtn">CODE<i class="fa-solid fa-laptop-code gradient"></i></a>
+                 </div>
+              </div>
+            </div>
+          
+          
+        </div>
+        <!-- 2 project row -->
+        <div class="portfolio-content flex autoBlur">
+          <div class="row">
+            <img src="./asset/calculator.png" alt="image">
+            <div class="layer">
+              <h5>UI/UX Calculator</h5>
+              <p>This is a basic calculator web application that performs standard arithmetic operations</p>
+                    <!-- <a href="#"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a> -->
+                     <div class="btn">
+                      <a href="https://cool-notavailable.github.io/Calculator.github.io/" target="_blank" class="projectBtn">DEMO<i class="fa-solid fa-arrow-up-right-from-square gradient" ></i></a>
+                      
+                      <a href="https://github.com/cool-notavailable/Calculator.github.io.git" target="_blank" class="projectBtn">CODE<i class="fa-solid fa-laptop-code gradient"></i></a>
+                     </div>
+            </div>
+          </div>
+          <div class="row">
+            <img src="./asset/portfolio.png" alt="image">
+            <div class="layer">
+              <h5>PERSIONAL PORTFOLIO</h5>
+              <p>A modern website built to reflect my personality, skills, and projects. Designed with clean layouts, smooth transitions, and a focus on user experience. </p>
+              <div class="btn">
+                <a href="#" target="_blank" class="projectBtn">DEMO<i class="fa-solid fa-arrow-up-right-from-square gradient" ></i></a>
+                <a href="https://github.com/cool-notavailable/GauravSharma-Portfolio.github.io.git" target="_blank" class="projectBtn">CODE<i class="fa-solid fa-laptop-code gradient"></i></a>
+               </div>
+            </div>
+          </div>
+          
+        </div>
+    
+    </section>
+    <!------------------ 
+    section 6 
+    ------------------->
+     <section class="contact flex" id="Contact">
+        <div class="contact-text ">
+            <h2 class="autoDisplay">Contact<span>Me</span></h2>
+            <h4 class="gradient">Let's work Together</h4>
+            <p class="autoBlur">I'm always excited to collaborate on new and creative projects. Whether you have a full-time opportunity, freelance gig, or just want to connect — feel free to drop a message!</p>
+          <div class="contact-list">
+            <li>
+              <a href="mailto:gaurav.sharma122000@gmail.com?subject=Let%27s%20Work%20Together&body=Hi%20there,%0AI%27m%20interested%20in%20working%20with%20you.">
+                <i class="fa-solid fa-paper-plane gradient"></i> gaurav.sharma122000@gmail.com</a>
+              </li>
+              
+            <li>
+              <a href="tel:+919873554270">
+                <i class="fa-solid fa-phone gradient"></i>  987 355 4270
+              </a>
+            </li>
+          </div>
+         <div class="contact-icons ">
+            <a class="" href="https://www.facebook.com/profile.php?id=100008211904666" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/gaurav__2112/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href= "https://www.linkedin.com/in/gaurav-sharma-571765358" target="_blank" style="--i: 7"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/cool-notavailable" target="_blank"><i class="fa-brands fa-github"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form autoBlur">
+           <form action="https://getform.io/f/ayvkdxjb" method="POST">
+            <input type="text" name="name" class='name' placeholder="Enter Your Name"  required>
+           <input   type="email" name="email"  class='email' placeholder="Enter Your Email" required>
+            <input type="subject" name="subject" class placeholder="Enter Your subject"  required>
+            <textarea name="message" id="" cols="40" rows="10" placeholder="Enter your Message"></textarea>
+            <input type="submit" value="Submit" class="submit projectBtn">
+        </form>
+      </div>
+
+     </section>
+</div>
+    <script src="./index.js"></script>
+  </body>
+</html>
