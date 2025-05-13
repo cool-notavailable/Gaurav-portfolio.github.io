@@ -1,4 +1,4 @@
-🌟 Persional Portfolio Website | Responsive & Animated
+🌟 Personal Portfolio Website | Responsive & Animated
 
 🚀 Overview A fully responsive, animated, and modern personal portfolio website built using HTML, CSS, and JavaScript. This website is designed to showcase professional skills, technical expertise, and creative projects with beautiful UI/UX and smooth animations across all devices.
 
