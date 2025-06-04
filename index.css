@@ -27,17 +27,21 @@ html {
   display: flex;
   flex-wrap: wrap;
 }
-#educationIcon {
-  font-size: 10px;
-  position: absolute;
-  text-align: center;
-}
+
 .color {
   color: var(--accent-blue-color);
 }
 #Highlight {
   font-weight: 500;
   color: #d1cdcd;
+}
+#Highlight a {
+  font-size: 1rem;
+  color: #d1cdcd;
+  margin: 5px;
+}
+#Highlight a:hover {
+  color: #f5f5f5;
 }
 p {
   font-family: "Poppins", "sans-serif";
